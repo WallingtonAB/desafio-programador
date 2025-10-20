@@ -11,7 +11,7 @@ Foram implementados dois scripts principais:
 
 
 ## Estrutura do Projeto
-'''
+```
 desafio-programador/
 │
 ├── inputs/ # PDFs de entrada
@@ -31,7 +31,7 @@ desafio-programador/
 ├── README.md # Este arquivo
 └── SOLUCAO.md # Documento técnico explicando a abordagem
 
-'''
+```
 
 ## Pré-requisitos
 
