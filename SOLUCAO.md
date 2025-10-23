@@ -88,7 +88,7 @@ Lidar com mais de um mês dentro do mesmo PDF;
 Manter linhas vazias (sem perder informações parciais);
 
 
-** Etapa 4 – Exportação dos Resultados **
+**Etapa 4 – Exportação dos Resultados:**
 
 Após a leitura e processamento, cada script exporta os dados para a pasta outputs/:
 
