@@ -43,40 +43,54 @@ desafio-programador/
 ## Instalação
 
 1. **Clonar o repositório**
+   
    ```
    git clone https://github.com/WallingtonAB/desafio-programador.git
    cd desafio-programador
-```
+   ```
+   
 **Criar ambiente virtual**
-```
+
+   ```
 python -m venv venv
-```
+   ```
+
 Ativar o ambiente virtual
 
 **Windows:**
-```
+
+   ```
 venv\Scripts\activate
-```
+   ```
+
 **Linux / macOS:**
-```
+
+   ```
 source venv/bin/activate
-```
+   ```
+
 **Instalar dependências**
-```
+
+   ```
 pip install -r requirements.txt
-```
+
+   ```
+
 **Como Executar**
 
 **Cartão de Ponto**
 Executa a extração do PDF e gera a planilha transcrita:
-```
+
+   ```
 python src/parsers/parse_time_card.py inputs/Exemplo-Cartao-Ponto-01.pdf outputs/cartao_ponto_transcrito.xlsx
-```
+   ```
 **Holerite**
 Executa a extração do PDF e gera a planilha transcrita:
-```
+
+   ```
 python src/parsers/parse_holerite_final.py inputs/Exemplo-Holerite-01.pdf outputs/holerite_transcrito.xlsx
-```
+   ```
+
 Após a execução, os arquivos .xlsx serão gerados dentro da pasta outputs/.
 
 **Estrutura das Planilhas**
